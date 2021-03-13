@@ -1,0 +1,19 @@
+using UnityEngine;
+using UnityEditor;
+
+namespace #NAMESPACE#
+{
+    [CustomEditor(typeof(#TARGETCLASS#))]
+    public class #SCRIPTNAME# : UnityEditor.Editor
+    {
+        public override void OnInspectorGUI()
+        {
+            #NOTRIM#
+        }
+
+        protected void OnSceneGUI()
+        {
+            #NOTRIM#
+        }
+    }
+}
